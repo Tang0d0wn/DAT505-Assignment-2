@@ -25,11 +25,13 @@ evidence/
 │ └── WiresharpcaptureDNSfilter.png
 │
 └── Traffic_intercept_evidence/
-└── traffic.csv
+  ├── dns.png
+  ├── http.png
+  └── traffic.csv
 
 pcapfiles/
 ├── arp_spoof2.pcap
-├── dns_spoof.pcap
+├── dns_spoofed_response.pcap
 └── traffic.pcap
 
 scripts/
@@ -39,6 +41,7 @@ scripts/
 ├── spoof_target.conf
 └── traffic_interceptor.py
 
+README.md
 requirement.txt
 ```
 ## Network Setup
